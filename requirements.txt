@@ -1,8 +1,29 @@
-fastapi
-uvicorn
-sqlalchemy
-psycopg2
-langchain
-openai
-python-dotenv
-pydantic
+# Web framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+alembic>=1.13.0
+
+# LangChain / LLM
+langchain>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.25.0
+
+# Google Calendar API
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.125.0
+
+# Configuration & validation
+pydantic[email]>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.1.0
+httpx>=0.27.0
+pytest-asyncio>=0.23.0
